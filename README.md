@@ -47,20 +47,24 @@ const extencaotxt = "txt"
 O sistema irá processar os arquivos que se encontram na pasta *origem*. Serão considerados todos arquivos com extenção *txt* e *cvs*, que possuem as extruturas conforme exemplos abaixo:
 
 Arquivo com dados de pessoa Física
+```sql
 ID;Nome;CPF;Idade
 1;Nome 1;12345678901;15
 2;Nome 2;23456789012;25
 3;Nome 3;34567890123;18
 4;Nome 4;45678901234;41
 5;Nome 5;56789012345;32
+```
 
 Arquivo com dados de pessoa Jurídica
+```sql
 ID;Nome;CNPJ
 6;Razao Social 6;12345678901234
 7;Razao Social 7;23456789012345
 8;Razao Social 8;34567890123456
 9;Razao Social 9;45678901234567
 10;Razao Social 10;56789012345678
+```
 
 Todos os arquivos que não respeitarem essas estruturas, não serão processados.
 
