@@ -1,8 +1,9 @@
 package main
 
 import (
-	"exemplo-files-process/sistema"
 	"time"
+
+	"github.com/_dev/exemplo-files-process/sistema"
 )
 
 // Determina o tempo em segundos, que o sistema ira esperar para executar novamente.

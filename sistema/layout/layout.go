@@ -2,7 +2,8 @@ package layout
 
 import (
 	"bytes"
-	"exemplo-files-process/util"
+
+	"github.com/_dev/exemplo-files-process/util"
 )
 
 const separatorFront = ": '"

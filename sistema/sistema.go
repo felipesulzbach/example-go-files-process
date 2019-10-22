@@ -2,12 +2,13 @@ package sistema
 
 import (
 	"bufio"
-	"exemplo-files-process/util"
 	"io"
 	"log"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/_dev/exemplo-files-process/util"
 )
 
 //const pathroot = "/home/felipe/go/diretorioarquivos"

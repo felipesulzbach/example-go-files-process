@@ -1,11 +1,12 @@
 package sistema
 
 import (
-	"exemplo-files-process/sistema/layout"
-	"exemplo-files-process/util"
 	"log"
 	"strconv"
 	"strings"
+
+	"github.com/_dev/exemplo-files-process/sistema/layout"
+	"github.com/_dev/exemplo-files-process/util"
 )
 
 // ProcessarArquivos Faz a leitura dos arquivos, processa os dados e move cada arquivo para outra pasta.
